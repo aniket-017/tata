@@ -1,0 +1,161 @@
+
+/* css for nav bar start */
+body {
+   margin:0;
+    padding: 0;
+  }
+
+  nav {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+  .logo {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .logo img {
+    height: 30px;
+    vertical-align: middle;
+  }
+
+  .nav-links {
+    display: inline-block;
+  }
+
+  .nav-links a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+
+/* css for nav bar end */
+
+/* css start for home page */
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 32px;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+/* css end for home page */
+
+
+/* css for services start */
+
+  h1 {
+    text-align: center;
+  }
+  
+  .service {
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 40px;
+  }
+  
+  .service h2 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .service p {
+    color: #666;
+  }
+/* css for services end */
+
+/* css for our customers start */
+
+.customers{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(
+      5,
+      100fr
+    ); /* Adjust the number of columns as per your preference */
+    grid-gap: 20px; /* Adjust the gap between logos */
+    justify-items: center;
+  }
+
+  .logo {
+    width: 50px;
+
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    margin-top: 40px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th,
+  td {
+    border: 1px solid #ccc;
+    padding: 8px;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  @media screen and (max-width: 600px) {
+    table {
+      font-size: 14px;
+    }
+  }
+
+
+
+    /* card css start */
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        grid-gap: 20px;
+        align-items: stretch;
+      }
+      
+      .grid > article {
+        border: 1px solid #ccc;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+      }
+      
+      .grid > article img {
+        max-width: 100%;
+      }
+      
+      .grid .text {
+        padding: 20px;
+      }
+      /* card css end */
+  /* css for our customers end */
